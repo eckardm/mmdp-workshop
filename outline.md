@@ -34,7 +34,8 @@ Use Python and LXML to Create CSV
   1. Open terminal/command prompt
   2. Navigate to Python folder
   3. Start Python
-  4. print "Hello World"
+  
+<code>print "Hello World"</code>
   
   5. Explain importing (metaphor of toolbelt, somebody has already done this for you...)
   6. Explain os
