@@ -58,6 +58,7 @@ Use Python and LXML to Create CSV
   9. Explain that directory is easy in this instance, but could be harder.
   10. Explain problem of going through directories/nodes in XML
   11. Explain solution (looping)
+  
 <pre><code>>>> for filename in path:</code></pre>
 
   12. Tell Python that this file is an xml file
@@ -75,8 +76,8 @@ Use Python and LXML to Create CSV
 <pre><code>>>>     for subject in subjects:</code></pre>
 <pre><code>>>>         print subject.text</code></pre>
   
-  26. Take a breath, marvel at our genius
-  27. Get into writing a program... and making comments!
+  17. Take a breath, marvel at our genius
+  18. Get into writing a program... and making comments!
 
 (20 mintues)
 
