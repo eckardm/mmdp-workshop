@@ -35,39 +35,47 @@ Use Python and LXML to Create CSV
   2. Navigate to Python folder
   3. Start Python
   
-<code>print "Hello World"</code>
+<code>>>> print "Hello World"</code>
   
-  5. Explain importing (metaphor of toolbelt, somebody has already done this for you...)
-  6. Explain os
-  7. import os
-  8. from os.path import join (this will make our lives easier, just trust us for now)
-  9. Explain lxml
-  10. from lxml import etree (only what we need)
-  11. Exlain csv
-  12. import csv
-  
-  13. Explain variables
-  14. path = 'EADs' (easy in this instance, but could be harder)
-  
-  15. Explain problem of going through directories/nodes in XML
-  16. Explain solution (looping)
-  17. for filename in 'EADs':
+  4. Explain importing (metaphor of toolbelt, somebody has already done this for you...)
+  5. Explain os (second part will make our lives easier, just trust us for now)
 
-  18. Tell Python that this file is an xml file
-  19. tree = etree.parse(join(path, filename))
-  20. Explain the join part (telling Python how to do what is easy for a human), also how you don't have to typoe out the whole thing
-  
-  21. subjects = tree.xpath('//controlaccess/subject')
-  22. Explain XPath (high-level, we'll get more in depth later), telling Python where to look matching anything, now it knows where all these are (in a list)
-  23. Explain EAD structure
+<code>>>> import os</code>
+<code>>>> from os.path import join</code>
 
-  24. Explain that we need another loop to go through each subject it's found
-  24. for subject in subjects:
+  6. Explain lxml (only what we need)
+
+<code>>>> from lxml import etree</code>
+
+  7. Exlain csv
+
+<code>>>> import csv</code>
   
-  25. print subject.text
+  8. Explain variables
+
+<code>>>> path = 'EADs'</code>
+
+  9. Explain that directory is easy in this instance, but could be harder.
+  10. Explain problem of going through directories/nodes in XML
+  11. Explain solution (looping)
+<code>>>> for filename in path:</code>
+
+  12. Tell Python that this file is an xml file
+  
+<code>>>>     tree = etree.parse(join(path, filename))</code>
+ 
+  13. Explain the join part (telling Python how to do what is easy for a human), also how you don't have to typoe out the whole thing
+  
+<code>>>>     subjects = tree.xpath('//controlaccess/subject')</code
+ 
+  14. Explain XPath (high-level, we'll get more in depth later), telling Python where to look matching anything, now it knows where all these are (in a list)
+  15. Explain EAD structure (why we're using controlaccess)
+  16. Explain that we need another loop to go through each subject it's found
+
+<code>>>>     for subject in subjects:</code>
+<code>>>>         print subject.text</code>
   
   26. Take a breath, marvel at our genius
-  
   27. Get into writing a program... and making comments!
 
 (20 mintues)
