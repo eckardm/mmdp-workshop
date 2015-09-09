@@ -31,6 +31,10 @@ Workshop
 Use Python and LXML to Create CSV
 ---------------------------------
 
+### From the terminal
+
+(20 minutes)
+
   * Open terminal/command prompt
   * Navigate to Python folder
   * Start Python
@@ -77,9 +81,10 @@ Use Python and LXML to Create CSV
 <pre><code>>>>         print subject.text</code></pre>
   
   * Take a breath, marvel at our genius
+  
+### Writing a program
+  
   * Get into writing a program... and making comments!
-
-(20 mintues)
 
 Use OpenRefine to Clean CSV
 ---------------------------
