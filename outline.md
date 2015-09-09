@@ -67,7 +67,7 @@ Use Python and LXML to Create CSV
   
   26. Take a breath, marvel at our genius
   
-  27. Get into writing a program...
+  27. Get into writing a program... and making comments!
 
 (20 mintues)
 
