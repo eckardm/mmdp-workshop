@@ -40,8 +40,8 @@ Use Python and LXML to Create CSV
   4. Explain importing (metaphor of toolbelt, somebody has already done this for you...)
   5. Explain os (second part will make our lives easier, just trust us for now)
 
-<code>>>> import os</code>
-<code>>>> from os.path import join</code>
+<pre><code>>>> import os</code></pre>
+<pre><code>>>> from os.path import join</code></pre>
 
   6. Explain lxml (only what we need)
 
