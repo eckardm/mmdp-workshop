@@ -35,7 +35,7 @@ Use Python and LXML to Create CSV
   2. Navigate to Python folder
   3. Start Python
   
-<code>>>> print "Hello World"</code>
+<pre><code>>>> print "Hello World"</code></pre>
   
   4. Explain importing (metaphor of toolbelt, somebody has already done this for you...)
   5. Explain os (second part will make our lives easier, just trust us for now)
@@ -45,35 +45,35 @@ Use Python and LXML to Create CSV
 
   6. Explain lxml (only what we need)
 
-<code>>>> from lxml import etree</code>
+<pre><code>>>> from lxml import etree</code></pre>
 
   7. Exlain csv
 
-<code>>>> import csv</code>
+<pre><code>>>> import csv</code></pre>
   
   8. Explain variables
 
-<code>>>> path = 'EADs'</code>
+<pre><code>>>> path = 'EADs'</code></pre>
 
   9. Explain that directory is easy in this instance, but could be harder.
   10. Explain problem of going through directories/nodes in XML
   11. Explain solution (looping)
-<code>>>> for filename in path:</code>
+<pre><code>>>> for filename in path:</code></pre>
 
   12. Tell Python that this file is an xml file
   
-<code>>>>     tree = etree.parse(join(path, filename))</code>
+<pre><code>>>>     tree = etree.parse(join(path, filename))</code></pre>
  
   13. Explain the join part (telling Python how to do what is easy for a human), also how you don't have to typoe out the whole thing
   
-<code>>>>     subjects = tree.xpath('//controlaccess/subject')</code
+<pre><code>>>>     subjects = tree.xpath('//controlaccess/subject')</code></pre>
  
   14. Explain XPath (high-level, we'll get more in depth later), telling Python where to look matching anything, now it knows where all these are (in a list)
   15. Explain EAD structure (why we're using controlaccess)
   16. Explain that we need another loop to go through each subject it's found
 
-<code>>>>     for subject in subjects:</code>
-<code>>>>         print subject.text</code>
+<pre><code>>>>     for subject in subjects:</code></pre>
+<pre><code>>>>         print subject.text</code></pre>
   
   26. Take a breath, marvel at our genius
   27. Get into writing a program... and making comments!
