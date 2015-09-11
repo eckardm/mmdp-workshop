@@ -139,14 +139,19 @@ and add...
   * Run it
   * Look at that cool new CSV!
   * Explain that if we wanted to, we could comment out the print commands, but they're cool to look at so we'll leave them and helpful for troubleshooting.
+  * Ask for questions
 
 Use OpenRefine to Clean CSV
 ---------------------------
 
 (20 minutes)
 
+Show how to import something, facet on subjects to show "kind of wrong" ones and then show easier way of using clustering, show the different algorithms, don't actually know what these things are...you'll have to figure out the one that works the best, could split on --, then show how you can see history, undo something, and even copy and replay your history, redo it, export csv (shows how you don't actaully mess with the original csv), mention other functionality like find and replace on a department name, and like, periods at end with regular expression
+
 Use Python and LXML to Update Original XML
 ------------------------------------------
+
+Use the exported CSV, open question of if we just have it ready or write it out, but will have opportunity to talk about indexes, and that they start with zero, reading and writing in CSV and LXML, setting row to variable using same variables, still need a loop, talk about either new EAD or overwrite EAD, have accidentally deleted things (and why backups are important), look at a before and after shot of the CSV.
 
 (10 minutes)
 
