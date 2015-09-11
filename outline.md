@@ -65,7 +65,7 @@ Use Python and LXML to Create CSV
   * Explain problem of going through directories/nodes in XML
   * Explain solution (looping)
   
-<pre><code>>>> for filename in path:</code></pre>
+<pre><code>>>> for filename in os.listdir(path):</code></pre>
 
   * Tell Python that this file is an xml file
   

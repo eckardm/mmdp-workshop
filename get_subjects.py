@@ -5,7 +5,7 @@ import csv
 
 path = 'EADs'
 
-for filename in path:
+for filename in os.listdir(path):
     tree = etree.parse(join(path, filename))
     subjects = tree.xpath('//controlaccess/subject')
     for subject in subjects:
