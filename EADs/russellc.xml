@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::russellc.xml//EN" encodinganalog="identifier">umich-bhl-86718</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Carl A. Russell papers <date>1950 and undated.</date></titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Len Coombs</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2003-06</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Len Coombs <date>2003-05</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20091223</date>
+        <item>Edited for style LAC</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2003-05-30</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Carl A. Russell papers, <date>1950 and undated.</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Len Coombs</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Russell, Carl A.</persname>
+      </origination>
+      <unittitle encodinganalog="245">Carl A. Russell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1950">1950</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
+      <physdesc>
+        <extent encodinganalog="300">1 folder</extent>
+      </physdesc>
+      <abstract>Soldier from Cleveland, Ohio, member of 167th Transportation Corps who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes roster of members, transcript of military record, and miscellanea.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86718 Aa 1</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated by Mrs. Carl Russell, of Indianapolis, Indiana, in 1978 (Donor no.: <num type="donor" encodinganalog="541$e">6261</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Carl A. Russell papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Resident of <geogname normal="Cleveland (Ohio)">Cleveland, Ohio</geogname>, served as private, <corpname normal="United States. Army. Transportation Corps, 167th.">167th Co. Transportation Corps.</corpname></p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The papers include a <genreform normal="Rosters.">roster</genreform> of the <corpname normal="United States. Army. Transportation Corps, 167th.">167th Co.</corpname>, a transcript of <persname normal="Russell, Carl A.">Russell's</persname> <genreform normal="Military records.">military record</genreform>, and miscellanea.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects</head>
+        <persname source="lcnaf" encodinganalog="600">Russell, Carl A.</persname>
+        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Demo Subjects</head>
+        <subject source="local">Ukrainian Americans--Michigan.</subject>
+        <subject source="local">Railroads</subject>
+        <subject source="local">Internal security--United States--20th century.</subject>
+        <subject source="local">Charities--Michigan--Detroit.</subject>
+        <subject source="local">World War, 1914-1918.</subject>
+        <subject source="local">Labor--Michigan.</subject>
+        <subject source="local">Immigrants--Michigan.</subject>
+        <subject source="local">Lesbians--Michigan--Ypsilanti.</subject>
+        <subject source="local">African American clergy--Michigan--Detroit.</subject>
+        <subject source="local">Railroads--Michigan.</subject>
+        <subject source="local">Forts and fortifications--Russia (Federation)</subject>
+        <subject source="local">Lumbering--Michigan--Manistee.</subject>
+        <subject source="local">Forest fires--Michigan.</subject>
+        <subject source="local">Military bands.</subject>
+        <subject source="local">Education--United States.</subject>
+        <subject source="local">Indians of North America.</subject>
+        <subject source="local">Physicians--Michigan.</subject>
+        <subject source="local">Wildlife conservation--Michigan.</subject>
+        <subject source="local">Dwellings--Michigan--Adrian.</subject>
+        <subject source="local">World War, 1939-1945.</subject>
+        <subject source="local">Women--Organizations.</subject>
+        <subject source="local">Farm life--Michigan.</subject>
+        <subject source="local">Hunting--Michigan.</subject>
+        <subject source="local">Artillery (Weaponry)--American.</subject>
+        <subject source="local">Yank.</subject>
+        <subject source="local">Music journalists--Michigan--Detroit.</subject>
+        <subject source="local">Folk music--Michigan--Ann Arbor.</subject>
+        <subject source="local">War casualties. </subject>
+        <subject source="local">Nuclear reactors.</subject>
+        <subject source="local">Drug abuse.</subject>
+        <subject source="local">Musicians--Michigan--Detroit.</subject>
+        <subject source="local">Radicals--Michigan--Ann Arbor.</subject>
+        <subject source="local">Singers.</subject>
+        <subject source="local">Eating and drinking.</subject>
+        <subject source="local">Gay rights--Michigan.</subject>
+        <subject source="local">Women--Michigan--Hillsdale--Societies and clubs.</subject>
+        <subject source="local">Furniture industry and trade--Michigan--Grand Rapids.</subject>
+        <subject source="local">Soldiers--American.</subject>
+        <subject source="local">Dwellings--Michigan--Ann Arbor.</subject>
+        <subject source="local">Students--Michigan--Ann Arbor.</subject>
+        <subject source="local">Physics.</subject>
+        <subject source="local">Ferries.</subject>
+        <subject source="local">Christianity and antisemitism.</subject>
+        <subject source="local">Rightwing movements.</subject>
+        <subject source="local">Afro-Americans--Civil rights.</subject>
+        <subject source="local">Riots.</subject>
+        <subject source="local">Missionaries, Medical--China.</subject>
+        <subject source="local">Carts and wagons.</subject>
+        <subject source="local">Lumber industry--Michigan--Farwell.</subject>
+        <subject source="local">Education--Michigan--Ann Arbor.</subject>
+        <subject source="local">Dwellings.</subject>
+        <subject source="local">Women.</subject>
+        <subject source="local">Judges--Michigan.</subject>
+        <subject source="local">Elections--Michigan--1972.</subject>
+        <subject source="local">Waterworks--Michigan--Madison Heights.</subject>
+        <subject source="local">Michiganensian.</subject>
+        <subject source="local">Conservation of natural resources--Michigan.</subject>
+        <subject source="local">African American youth--Michigan--Detroit.</subject>
+        <subject source="local">Catholic gays--Michigan--Detroit.</subject>
+        <subject source="local">Ethnic communities.</subject>
+        <subject source="local">Housing policy--Michigan--Religious aspects.</subject>
+        <subject source="local">Mental retardation--Michigan.</subject>
+        <subject source="local">Prisoners--Abuse of--Michigan.</subject>
+        <subject source="local">Transgender people--Michigan--Societies, etc.</subject>
+        <subject source="local">Solar cars.</subject>
+        <subject source="local">Greek letter societies--Michigan--Ann Arbor.</subject>
+        <subject source="local">Women soldiers--United States.</subject>
+        <subject source="local">Women soldiers.</subject>
+        <subject source="local">Displaced homemakers--Services for--Michigan.</subject>
+        <subject source="local">Displaced homemakers.--Michigan.</subject>
+        <subject source="local">Judges--Michigan.</subject>
+        <subject source="local">Hunting--Michigan.</subject>
+        <subject source="local">Ballet--United States.</subject>
+        <subject source="local">Gardening.</subject>
+        <subject source="local">Soldiers--American.</subject>
+        <subject source="local">Discrimination in employment--United States.</subject>
+        <subject source="local">Air pilots.</subject>
+        <subject source="local">World War, 1939-1945.</subject>
+        <subject source="local">World War, 1939-1945--Participation, African American.</subject>
+        <subject source="local">Epidemiology.</subject>
+        <subject source="local">Industrial hygiene.</subject>
+        <subject source="local">Public health.</subject>
+        <subject source="local">Children.</subject>
+        <subject source="local">Launchings.</subject>
+        <subject source="local">Business records.</subject>
+        <subject source="local">World War, 1939-1945--Personal narratives, American.</subject>
+        <subject source="local">Phonographs--1911-1920.</subject>
+        <subject source="local">Radio.</subject>
+        <subject source="local">Camps.</subject>
+        <subject source="local">Parks--Michigan--Dryden.</subject>
+        <subject source="local">Business records.</subject>
+        <subject source="local">Burton Tower (University of Michigan)</subject>
+        <subject source="local">Journalists--Michigan--Ann Arbor.</subject>
+        <subject source="local">Saginaw news.</subject>
+        <subject source="local">Automobiles.</subject>
+        <subject source="local">Farms.</subject>
+        <subject source="local">Physicians--Michigan--Alma.</subject>
+        <subject source="local">Education--Michigan--Ann Arbor.</subject>
+        <subject source="local">Women.</subject>
+        <subject source="local">Coal trade--Michigan--Ann Arbor.</subject>
+        <subject source="local">Elections--Michigan--1948.</subject>
+        <subject source="local">Elections--Michigan--1956.</subject>
+        <subject source="local">Elections--Michigan--1962.</subject>
+        <subject source="local">Politics and government--1961-1970.</subject>
+        <subject source="local">Judges--Michigan--Detroit.</subject>
+        <subject source="local">Churches.</subject>
+        <subject source="local">Music--Michigan--Ann Arbor.</subject>
+        <subject source="local">Registers of births, etc.--Michigan--Detroit.</subject>
+        <subject source="local">Composers.</subject>
+        <subject source="local">Labor laws and legislation--Michigan</subject>
+        <subject source="local">Judges--Michigan.</subject>
+        <subject source="local">Television in education--Michigan--Ann Arbor.</subject>
+        <subject source="local">Concentration camps.</subject>
+        <subject source="local">Concentration camps.</subject>
+        <subject source="local">Hospitals.</subject>
+        <subject source="local">War damage.</subject>
+        <subject source="local">Interdenominational cooperation.</subject>
+        <subject source="local">French Americans--Michigan.</subject>
+        <subject source="local">Business records.</subject>
+        <subject source="local">Apportionment (Election law)--Michigan.</subject>
+        <subject source="local">Legislators--Michigan--Macomb County.</subject>
+        <subject source="local">Scientific expeditions.</subject>
+        <subject source="local">Expeditions and surveys.</subject>
+        <subject source="local">Labor unions--United States--Officials and employees.</subject>
+        <subject source="local">Retail trade strikes--New York (State)--New York.</subject>
+        <subject source="local">International law</subject>
+        <subject source="local">Constitutional Law--Czech Republic</subject>
+        <subject source="local">Automobiles--Catalytic converters.</subject>
+        <subject source="local">Corporate meetings--United States.</subject>
+        <subject source="local">Libertarians--Michigan.</subject>
+        <subject source="local">Marijuana.</subject>
+        <subject source="local">Clergy--New York (State)</subject>
+        <subject source="local">Radicalism--Michigan--Ann Arbor.</subject>
+        <subject source="local">Churches--Michigan--Ann Arbor.</subject>
+        <subject source="local">Holidays.</subject>
+        <subject source="local">Veteran's Day.</subject>
+        <subject source="local">Missionaries--India.</subject>
+        <subject source="local">Missionaries--United States.</subject>
+        <subject source="local">Registers of births, etc.--Michigan--River Rouge.</subject>
+        <subject source="local">Forests and forestry--Michigan.</subject>
+        <subject source="local">Surveyors--Michigan.</subject>
+        <subject source="local">Registers of births, etc.--Michigan--Hazel Park.</subject>
+        <subject source="local">Churches--Michigan--Ann Arbor.</subject>
+        <subject source="local">Registers of births, etc.--Michigan--Flat Rock.</subject>
+        <subject source="local">Automobiles--Design and construction.</subject>
+        <subject source="local">Arab Americans--Michigan.</subject>
+        <subject source="local">Prohibition--Pennsylvania.</subject>
+        <subject source="local">Italo-Ethiopian War, 1935-1936.</subject>
+        <subject source="local">Foreign correspondents--United States.</subject>
+        <subject source="local">Agricultural machinery.</subject>
+        <subject source="local">Guards.</subject>
+        <subject source="local">Hotels and taverns.</subject>
+        <subject source="local">Iron industry.</subject>
+        <subject source="local">Lifesaving stations.</subject>
+        <subject source="local">Lumber industry.</subject>
+        <subject source="local">Railroad accidents.</subject>
+        <subject source="local">Railroad cars.</subject>
+        <subject source="local">Railroad employees.</subject>
+        <subject source="local">Railroad locomotives.</subject>
+        <subject source="local">Railroad shops and yards.</subject>
+        <subject source="local">Railroads--United States.</subject>
+        <subject source="local">Street railroads--United States.</subject>
+        <subject source="local">Tunnels.</subject>
+        <subject source="local">Soldiers--Michigan.</subject>
+        <subject source="local">Polar Bear Expedition.</subject>
+        <subject source="local">World War, 1914-1918.</subject>
+        <subject source="local">Athletics--Michigan--Ann Arbor.</subject>
+        <subject source="local">Municipal government--Michigan--Detroit.</subject>
+        <subject source="local">World War, 1914-1918.</subject>
+        <subject source="local">Journalists--United States.</subject>
+        <subject source="local">Churches -- Michigan -- Lansing.</subject>
+        <subject source="local">Registers of births, etc.--Michigan--Grand Rapids.</subject>
+        <subject source="local">Women--Michigan--Detroit--Societies and clubs.</subject>
+        <subject source="local">Women--Religious life--Michigan--Detroit.</subject>
+        <subject source="local">Churches--Michigan--Detroit.</subject>
+        <subject source="local">Lutheran Church--Michigan--Detroit.</subject>
+        <subject source="local">Lutheran Church--Michigan--Plymouth.</subject>
+        <subject source="local">Business enterprises.</subject>
+        <subject source="local">Classrooms.</subject>
+        <subject source="local">Hotels and taverns.</subject>
+        <subject source="local">Interiors--General stores.</subject>
+        <subject source="local">Lutheran Church--Michigan--Plymouth.</subject>
+        <subject source="local">Church buildings--Michigan--Plymouth</subject>
+        <subject source="local">Schools--Michigan--Plymouth.</subject>
+        <subject source="local">Registers of births, etc.--Michigan--Detroit.</subject>
+        <subject source="local">Nurses--Michigan--Ann Arbor.</subject>
+        <subject source="local">College teachers--Michigan--Ann Arbor.</subject>
+        <subject source="local">Registers of births, etc.--Michigan--Detroit.</subject>
+        <subject source="local">German Americans--Michigan.</subject>
+        <subject source="local">Registers of births, etc.--Michigan--Freedom (Township)</subject>
+        <subject source="local">Black English--Michigan--Ann Arbor.</subject>
+        <subject source="local">Children with social disabilities--Education--Michigan.</subject>
+        <subject source="local">Education--Michigan.</subject>
+        <subject source="local">School discipline--Michigan.</subject>
+        <subject source="local">Schools--Michigan.</subject>
+        <subject source="local">African Americans--Michigan.</subject>
+        <subject source="local">Clergy--Michigan.</subject>
+        <subject source="local">Agriculture.</subject>
+        <subject source="local">Bands.</subject>
+        <subject source="local">Business enterprises.</subject>
+        <subject source="local">Churches.</subject>
+        <subject source="local">Dwellings--Michigan--Ann Arbor.</subject>
+        <subject source="local">Fire engines and equipment.</subject>
+        <subject source="local">Mills.</subject>
+        <subject source="local">Parades and processions.</subject>
+        <subject source="local">Schools--Michigan--Washtenaw County.</subject>
+        <subject source="local">Sports.</subject>
+        <subject source="local">Architecture.</subject>
+        <subject source="local">Children--Health and hygiene--Michigan--Ann Arbor.</subject>
+        <subject source="local">Physicians--Michigan--Ann Arbor.</subject>
+        <subject source="local">African Americans--Michigan--Ann Arbor--Work.</subject>
+        <subject source="local">Clinics--Michigan--Ann Arbor.</subject>
+        <subject source="local">Physicians--Michigan--Ann Arbor.</subject>
+        <subject source="local">Law.</subject>
+        <subject source="local">Sermons, American.</subject>
+        <subject source="local">Women--Michigan--History.</subject>
+        <subject source="local">Interiors--Michigan.</subject>
+        <subject source="local">Children--Health and hygiene--United States.</subject>
+        <subject source="local"> Hygiene.</subject>
+        <subject source="local"> Public health--United States.</subject>
+        <subject source="local">Agriculture--Michigan--Saginaw County.</subject>
+        <subject source="local">Depressions--1929--Michigan--Saginaw County.</subject>
+        <subject source="local">Finnish Americans--Michigan.</subject>
+        <subject source="local">Labor movement--United States.</subject>
+        <subject source="local">Registers of births, etc.--Michigan.</subject>
+        <subject source="local">Immigrants--United States.</subject>
+        <subject source="local">Stellfeld collection.</subject>
+        <subject source="local">Archaeology--Middle East.</subject>
+        <subject source="local">Photographers.</subject>
+        <subject source="local">Archaeology--Egypt.</subject>
+        <subject source="local">Business enterprises--Michigan--Ann Arbor.</subject>
+        <subject source="local">Carts and wagons.</subject>
+        <subject source="local">Dams--Michigan--Ann Arbor.</subject>
+        <subject source="local">Dwellings--Michigan--Ann Arbor.</subject>
+        <subject source="local">Laboratories.</subject>
+        <subject source="local">Nature photography.</subject>
+        <subject source="local">Parks--Michigan--Ann Arbor.</subject>
+        <subject source="local">Photography of mountains.</subject>
+        <subject source="local">Railroads--Michigan.</subject>
+        <subject source="local">Streets--Michigan--Ann Arbor.</subject>
+        <subject source="local">War damage.</subject>
+        <subject source="local">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
+        <subject source="local">World War, 1914-1918--Education and the war.</subject>
+        <subject source="local">World War, 1914-1918--War damage.</subject>
+        <subject source="local">Civil rights--Michigan.</subject>
+        <subject source="local">Elections--Michigan--1960.</subject>
+        <subject source="local">Governors--Michigan.</subject>
+        <subject source="local">World War, 1939-1945.</subject>
+        <subject source="local">Governors--Michigan.</subject>
+        <subject source="local">Political elections--1962.</subject>
+        <subject source="local">Elections--Michigan--1962.</subject>
+        <subject source="local">Mental health.</subject>
+        <subject source="local">Women engineers--Michigan--Ann Arbor.</subject>
+        <subject source="local">Hospitals--Law and legislation--United States.</subject>
+        <subject source="local">Journalists--United States.</subject>
+        <subject source="local">The Michigan daily.</subject>
+        <subject source="local">Prisoners of war--Philippines.</subject>
+        <subject source="local">World War, 1939-1945.</subject>
+        <subject source="local">Guerrillas.</subject>
+        <subject source="local">Journalists--United States.</subject>
+        <subject source="local">National liberation movements.</subject>
+        <subject source="local">Soldiers.</subject>
+        <subject source="local">African Americans--Michigan.</subject>
+        <subject source="local">Education--Michigan--Battle Creek.</subject>
+        <subject source="local">Community organization--Michigan</subject>
+        <subject source="local">African Americans--Education.</subject>
+        <subject source="local">African Americans--Organizations.</subject>
+        <subject source="local">African Americans--Women.</subject>
+        <subject source="local">Community service--Michigan--Battle Creek.</subject>
+        <subject source="local">African Americans--Societies, etc.</subject>
+        <subject source="local">Social service--Michigan--Battle Creek.</subject>
+        <subject source="local">Elections--Michigan--Sylvan (Washtenaw County : Township)</subject>
+        <subject source="local">School census--Michigan--Sylvan (Washtenaw County : Township)</subject>
+        <subject source="local">Taxation--Michigan--Sylvan (Washtenaw County : Township)</subject>
+        <subject source="local">Depressions--1929--Michigan.</subject>
+        <subject source="local">Machine shops.</subject>
+        <subject source="local">Physical education and training.</subject>
+        <subject source="local">Univerisities and colleges--Alumni and alumnae--Michigan.</subject>
+        <subject source="local">Resorts--Michigan.</subject>
+        <subject source="local">Indians of North America--Michigan.</subject>
+        <subject source="local">Birth control.</subject>
+        <subject source="local">Immigrants--United States.</subject>
+        <subject source="local">Poetry.</subject>
+        <subject source="local">Medals.</subject>
+        <subject source="local">Sculpture.</subject>
+        <subject source="local">Farming.</subject>
+        <subject source="local">Hazing--Michigan--Ann Arbor.</subject>
+        <subject source="local">People with disabilities--Michigan.</subject>
+        <subject source="local">Poliomyelitis--Patients.</subject>
+        <subject source="local">Breathing apparatus.</subject>
+        <subject source="local">Medical equipment and supplies.</subject>
+        <subject source="local">Wheelchairs.</subject>
+        <subject source="local">Discrimination in employment--Michigan--Ann Arbor.</subject>
+        <subject source="local">College teachers--Michigan--Ann Arbor.</subject>
+        <subject source="local">Endowments--Michigan.</subject>
+        <subject source="local">Real estate development--California.</subject>
+        <subject source="local">Real estate development--Russia (Federation)</subject>
+        <subject source="local">Shopping centers--Illinois.</subject>
+        <subject source="local">Shopping centers--Michigan.</subject>
+        <subject source="local">Shopping centers--Illinois.</subject>
+        <subject source="local">Shopping centers--Michigan--Grand Rapids.</subject>
+        <subject source="local">Libraries--Michigan--Ann Arbor.</subject>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Papers</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1950">1950</unitdate>
+              <unitdate type="inclusive">undated</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 items</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

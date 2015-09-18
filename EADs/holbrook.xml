@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::holbrook.xml//EN" encodinganalog="identifier">umich-bhl-88395</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Evans Holbrook Student Notebook, 1899-1900</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Bentley Historical Library Staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2005</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>Nov. 2005</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2004</date>
+        <item>Original encoding from MARC record using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Evans Holbrook Student Notebook, 1899-1900</titleproper>
+      <author>Finding aid created by <lb/>Bentley Historical Library Staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Holbrook, Evans, 1875-1932.</persname>
+      </origination>
+      <unittitle encodinganalog="245">Evans Holbrook student notebook <unitdate type="inclusive" encodinganalog="245$f" normal="1899/1900">1899-1900</unitdate></unittitle>
+      <physdesc>
+        <extent encodinganalog="300">1 volume</extent>
+      </physdesc>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">88395 Bimu C74</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Law student at the University of Michigan. Notes on the law lectures of Victor H. Lane relating in part to extraordinary legal remedies.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Donor no. <num type="donor" encodinganalog="541$e">343</num></p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box, Evans Holbrook Student Notebook, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Law student at the University of Michigan and later law professor.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Evans Holbrook collection consists of a single volume of his notes on the law lectures of Victor H. Lane relating in part to extraordinary legal remedies</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2002048914">Lane, Victor Hugo, 1852-1930.</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student notebooks.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Demo Subjects</head>
+        <subject source="local">Immigrants--Michigan.</subject>
+        <subject source="local">African Americans--Michigan--Detroit.</subject>
+        <subject source="local">Laborers.</subject>
+        <subject source="local">Furniture industry and trade--Michigan--Grand Rapids.</subject>
+        <subject source="local">Baseball--Michigan--Benton Harbor.</subject>
+        <subject source="local">Camping--Michigan.</subject>
+        <subject source="local">Women--Michigan--Ann Arbor.</subject>
+        <subject source="local">Gerontology.</subject>
+        <subject source="local">Hunger.</subject>
+        <subject source="local">Radio and music--Michigan.</subject>
+        <subject source="local">Gerontology.</subject>
+        <subject source="local">Computers.</subject>
+        <subject source="local">AIDS (Disease)--Research--United States.</subject>
+        <subject source="local">City planning--Illinois--Chicago.</subject>
+        <subject source="local">Acresses.</subject>
+        <subject source="local">Newspapers--Michigan--Ironwood.</subject>
+        <subject source="local">Indians of North America--Michigan.</subject>
+        <subject source="local">African Americans--Civil rights--Michigan--Ypsilanti.</subject>
+        <subject source="local">Antisemitism.</subject>
+        <subject source="local">American newspapers--Michigan--Grand Rapids.</subject>
+        <subject source="local">Saginaw news.</subject>
+        <subject source="local">The Plaindealer.</subject>
+        <subject source="local">Hillsdale gazette.</subject>
+        <subject source="local">Riots--Michigan--Detroit--History--20th century.</subject>
+        <subject source="local">Politics and government--1961-1970.</subject>
+        <subject source="local">Social sciences--Research.</subject>
+        <subject source="local">Nurses--United States--Interviews.</subject>
+        <subject source="local">Track athletics.</subject>
+        <subject source="local">Election monitoring--South Africa--1994.</subject>
+        <subject source="local">Science.</subject>
+        <subject source="local">Women--Crimes against.</subject>
+        <subject source="local">Gay liberation movement--History.</subject>
+        <subject source="local">Discrimination in medical care.</subject>
+        <subject source="local">Health resorts--Michigan--Battle Creek.</subject>
+        <subject source="local">Hygiene.</subject>
+        <subject source="local">Missions--Illinois--Chicago.</subject>
+        <subject source="local">Legislators--Michigan.</subject>
+        <subject source="local">Bacteriologists--Michigan--Ann Arbor.</subject>
+        <subject source="local">World War, 1939-1945.</subject>
+        <subject source="local">Clergy--Michigan--Ann Arbor.</subject>
+        <subject source="local">Bankruptcy--United States.</subject>
+        <subject source="local">Roads--Michigan.</subject>
+        <subject source="local">Political elections--1937.</subject>
+        <subject source="local">Traffic congestion.</subject>
+        <subject source="local">Law.</subject>
+        <subject source="local">Nursing--International cooperation.</subject>
+        <subject source="local">Teachers--Michigan.</subject>
+        <subject source="local">Masers.</subject>
+        <subject source="local">Dwellings--Michigan--Saginaw.</subject>
+        <subject source="local">Kinesiology.</subject>
+        <subject source="local">Lawyers--Michigan--Ann Arbor.</subject>
+        <subject source="local">Women's rights--Michigan.</subject>
+        <subject source="local">African American musicians.</subject>
+        <subject source="local">Sampling (Statistics)</subject>
+        <subject source="local">Laborers.</subject>
+        <subject source="local">Parades and processions.</subject>
+        <subject source="local">Cooperative societies--Michigan.</subject>
+        <subject source="local">Dwellings--Michigan--Ann Arbor.</subject>
+        <subject source="local">Emigration and immigration.</subject>
+        <subject source="local">Plants--Collection and preservation.</subject>
+        <subject source="local">Textile fabrics--India--Jammu and Kashmir.</subject>
+        <subject source="local">Mines and mineral resources--United States.</subject>
+        <subject source="local">Antislavery movements--Michigan.</subject>
+        <subject source="local">Afro-Americans--Michigan.</subject>
+        <subject source="local">Unemployed--Michigan--Detroit.</subject>
+        <subject source="local">Automobile industry and trade.</subject>
+        <subject source="local">Business enterprises--Michigan--Detroit.</subject>
+        <subject source="local">Buildings--Michigan--Detroit.</subject>
+        <subject source="local">Academic freedom.</subject>
+        <subject source="local">Cooperative societies--Michigan--Ann Arbor.</subject>
+        <subject source="local">Civil rights--Michigan.</subject>
+        <subject source="local">Elections--Michigan--1934.</subject>
+        <subject source="local">Oral history.</subject>
+        <subject source="local">World War, 1914-1918.</subject>
+        <subject source="local">Women.</subject>
+        <subject source="local">Women--Organizations.</subject>
+        <subject source="local">Fish hatcheries.</subject>
+        <subject source="local">Machine theory.</subject>
+        <subject source="local">Costumes.</subject>
+        <subject source="local">Living rooms--1911-1920.</subject>
+        <subject source="local">Diplomatic and consular service, American.</subject>
+        <subject source="local">Diplomatic and consular service, American--Vietnam.</subject>
+        <subject source="local">Drunk driving--Prevention.</subject>
+        <subject source="local">Mobile home parks--Michigan.</subject>
+        <subject source="local">Iwo Jima, Battle of, Japan, 1945.</subject>
+        <subject source="local">Mobile homes.</subject>
+        <subject source="local">War damage--Japan--Nagasaki-Shi.</subject>
+        <subject source="local">World War, 1939-1945--Destruction and pillage.</subject>
+        <subject source="local">Law.</subject>
+        <subject source="local">Group portraits.</subject>
+        <subject source="local">Transportation.</subject>
+        <subject source="local">Municipal officials.</subject>
+        <subject source="local">Architecture--Research.</subject>
+        <subject source="local">Zoology.</subject>
+        <subject source="local">Hispanic Americans--Michigan--Detroit.</subject>
+        <subject source="local">Indians of Central America.</subject>
+        <subject source="local">Hispanic Americans--Michigan.</subject>
+        <subject source="local">Soldiers -- American -- Russia (Federation)</subject>
+        <subject source="local">Homosexuality--Michigan--Ann Arbor.</subject>
+        <subject source="local">Banks and banking--Michigan--Grand Rapids.</subject>
+        <subject source="local">Fairs--Michigan--Ionia County.</subject>
+        <subject source="local">Buildings--Michigan--Grand Rapids.</subject>
+        <subject source="local">Politics and government--Michigan--1939-1945.</subject>
+        <subject source="local">Cooperative societies--Michigan--Ann Arbor.</subject>
+        <subject source="local">William Warner Bishop lectureship series </subject>
+        <subject source="local">Restaurants--Michigan--Ann Arbor</subject>
+        <subject source="local">Construction industry</subject>
+        <subject source="local">Televisions</subject>
+        <subject source="local">World War, 1914-1918.</subject>
+        <subject source="local">Women--Michigan--Washtenaw County--Societies and clubs.</subject>
+        <subject source="local">Elections--Michigan--1920.</subject>
+        <subject source="local">Construction--Michigan--Ann Arbor.</subject>
+        <subject source="local">Fraternal organizations--Michigan--Ann Arbor.</subject>
+        <subject source="local">Restaurants--Michigan--Ann Arbor.</subject>
+        <subject source="local">Education--Michigan.</subject>
+        <subject source="local">Lumbering--Michigan.</subject>
+        <subject source="local">Baseball.</subject>
+        <subject source="local">Children.</subject>
+        <subject source="local">Music--United States.</subject>
+        <subject source="local">Dentistry--United States.</subject>
+        <subject source="local">Teachers--Michigan--Ann Arbor</subject>
+        <subject source="local">Elections--Michigan--1966.</subject>
+        <subject source="local">Vietnam War, 1961-1975.</subject>
+        <subject source="local">Women in politics--Michigan--Ann Arbor.</subject>
+        <subject source="local">Iron mines and mining--Michigan--Upper Peninsula.</subject>
+        <subject source="local">Children.</subject>
+        <subject source="local">Indians of North America.</subject>
+        <subject source="local">Mining.</subject>
+        <subject source="local">Women.</subject>
+        <subject source="local">Clergy--Michigan--Ann Arbor.</subject>
+        <subject source="local">Clergymen.</subject>
+        <subject source="local">Tableaux.</subject>
+        <subject source="local">Conservation of natural resources--United States.</subject>
+        <subject source="local">Civil defense--Illinois--Chicago.</subject>
+        <subject source="local">Elections--Michigan--1954.</subject>
+        <subject source="local">Law enforcement--Michigan.</subject>
+        <subject source="local">Wiretapping.</subject>
+        <subject source="local">Automobiles.</subject>
+        <subject source="local">Motorcycles.</subject>
+        <subject source="local">Politics and government--1946-1960.</subject>
+        <subject source="local">Tornadoes.</subject>
+        <subject source="local">Elections--Michigan--1964.</subject>
+        <subject source="local">Political elections--Michigan.</subject>
+        <subject source="local">Air shows--Michigan.</subject>
+        <subject source="local">Dwellings--Michigan--Ann Arbor.</subject>
+        <subject source="local">Rubber industry and trade--United States.</subject>
+        <subject source="local">Industrial buildings.</subject>
+        <subject source="local">Offices.</subject>
+        <subject source="local">Rubber industry.</subject>
+        <subject source="local">World War, 1914-1918.</subject>
+        <subject source="local">Mathematics.</subject>
+        <subject source="local">Biochemistry--Research.</subject>
+        <subject source="local">English language--Middle English, 1100-1500.</subject>
+        <subject source="local">Prick of conscience.</subject>
+        <subject source="local">General stores--Michigan--Elsie.</subject>
+        <subject source="local">Dentistry--Michigan--Elsie.</subject>
+        <subject source="local">Interiors--Michigan--Elsie.</subject>
+        <subject source="local">Veterans--Michigan--Elsie.</subject>
+        <subject source="local">Bisexual college students--Michigan--Ann Arbor.</subject>
+        <subject source="local">Gays--Michigan.</subject>
+        <subject source="local">Lesbians--Michigan.</subject>
+        <subject source="local">Transsexual college students--Michigan--Ann Arbor.</subject>
+        <subject source="local">Gays--Michigan--Ann Arbor.</subject>
+        <subject source="local">Coming out (Sexual orientation)--Michigan.</subject>
+        <subject source="local">Lesbians--Michigan--Ann Arbor.</subject>
+        <subject source="local">Bisexual youth--Michigan.</subject>
+        <subject source="local">Bisexuals--Religious life--Michigan--Detroit.</subject>
+        <subject source="local">Gay activists--Michigan--Ferndale.</subject>
+        <subject source="local">Gay teenagers--Michigan.</subject>
+        <subject source="local">Gays--Michigan.</subject>
+        <subject source="local">Gays--Michigan--Detroit.</subject>
+        <subject source="local">Gays--Michigan--Societies, etc.</subject>
+        <subject source="local">Gays--Religious life--Michigan--Grand Rapids.</subject>
+        <subject source="local">Homosexuality--Societies, etc.--Michigan--Ferndale.</subject>
+        <subject source="local">Lesbians--Michigan.</subject>
+        <subject source="local">Lesbians--Religious life--Michigan--Detroit.</subject>
+        <subject source="local">Parents of gays--Michigan--Detroit.</subject>
+        <subject source="local">Runaway teenagers--Michigan.</subject>
+        <subject source="local">Social justice.</subject>
+        <subject source="local">Social work with lesbian youth--Michigan--Detroit.</subject>
+        <subject source="local">Transgender people--Michigan--Societies, etc.</subject>
+        <subject source="local">Transgender youth--Michigan.</subject>
+        <subject source="local">Women's music festivals--Michigan.</subject>
+        <subject source="local">Oakland County (Mich.)--Politics and government.</subject>
+        <subject source="local">Libraries--Michigan--Ann Arbor.</subject>
+        <subject source="local">Children.</subject>
+        <subject source="local">Libraries--Michigan--Ann Arbor.</subject>
+        <subject source="local">Classrooms--Michigan--Ann Arbor.</subject>
+        <subject source="local">Teachers--Michigan--Ann Arbor.</subject>
+        <subject source="local">Agriculture--United States.</subject>
+        <subject source="local">Strikes and lockouts--Rubber industry--Ohio.</subject>
+        <subject source="local">Social surveys</subject>
+        <subject source="local">Survey research.</subject>
+        <subject source="local">World War, 1939-1945.</subject>
+        <subject source="local">Military art and science.</subject>
+        <subject source="local">Soldiers -- American -- Russia (Federation)</subject>
+        <subject source="local">Ships.</subject>
+        <subject source="local">Justices of the peace--Michigan--Lima (Township)</subject>
+        <subject source="local">Schools--Michigan--Lima (Township)</subject>
+        <subject source="local">Forest fires--Michigan--Thumb District.</subject>
+        <subject source="local">Juvenile delinquency--Michigan--Wayne County.</subject>
+        <subject source="local">Municipal government--Michigan--Detroit.</subject>
+        <subject source="local">Water-supply--Michigan--Detroit Region.</subject>
+        <subject source="local">Synchronized swimming.</subject>
+        <subject source="local">Synchronized swimming.</subject>
+        <subject source="local">Elections--Michigan--1966.</subject>
+        <subject source="local">Judges--Michigan.</subject>
+        <subject source="local">Presidents--United States--Election--1964.</subject>
+        <subject source="local">Prison riots--Michigan--1981.</subject>
+        <subject source="local">Behaviorism (Psychology)</subject>
+        <subject source="local">Community development.</subject>
+        <subject source="local">Organizational change.</subject>
+        <subject source="local">Psychology.</subject>
+        <subject source="local">Agriculture--Michigan.</subject>
+        <subject source="local">Conservation of natural resources--Michigan.</subject>
+        <subject source="local">Land use--Michigan.</subject>
+        <subject source="local">Lumbering--Michigan.</subject>
+        <subject source="local">Women--Michigan--Monroe County.</subject>
+        <subject source="local">Business enterprises--Michigan--Saginaw.</subject>
+        <subject source="local">Lumber industry.</subject>
+        <subject source="local">Aeronautics.</subject>
+        <subject source="local">Authors, American--Michigan.</subject>
+        <subject source="local">Drug abuse.</subject>
+        <subject source="local">Eugenics.</subject>
+        <subject source="local">Jews--United States.</subject>
+        <subject source="local">Peace--Societies, etc.</subject>
+        <subject source="local">Public health--United States.</subject>
+        <subject source="local">Immigrants--United States.</subject>
+        <subject source="local">Economic forecasting--Michigan.</subject>
+        <subject source="local">Budget--United States.</subject>
+        <subject source="local">Budget--Michigan--Detroit.</subject>
+        <subject source="local">Fiscal policy--Michigan.</subject>
+        <subject source="local">Taxation--Michigan.</subject>
+        <subject source="local">Federal government--United States--21st century--Speeches, addresses, etc.</subject>
+        <subject source="local">Banks and banking--Michigan--Detroit.</subject>
+        <subject source="local">Presidents--United States--Election--1884.</subject>
+        <subject source="local">Dwellings--Michigan--Detroit.</subject>
+        <subject source="local">Philospphy.</subject>
+        <subject source="local">Antietam, Battle of, Md., 1862.</subject>
+        <subject source="local">Bull Run, 2nd Battle of, Va., 1862.</subject>
+        <subject source="local">Fredericksburg, Battle of, Fredericksburg, Va., 1862.</subject>
+        <subject source="local">Military uniforms.</subject>
+        <subject source="local">Computers.</subject>
+        <subject source="local">Art.</subject>
+        <subject source="local">Physicians--Michigan--Ann Arbor.</subject>
+        <subject source="local">Lawyers--Michigan--Detroit.</subject>
+        <subject source="local">Telephone--Michigan.</subject>
+        <subject source="local">Copper mines and mining--Michigan--Upper Peninsula.</subject>
+        <subject source="local">Judges--Michigan--Lansing.</subject>
+        <subject source="local">Women--Education--United States.</subject>
+        <subject source="local">Architects.</subject>
+        <subject source="local">Dormitories--Michigan--Ann Arbor.</subject>
+        <subject source="local">World War, 1914-1918.</subject>
+        <subject source="local">Barns.</subject>
+        <subject source="local">Business enterprises.</subject>
+        <subject source="local">Courthouses.</subject>
+        <subject source="local">Hotels and taverns.</subject>
+        <subject source="local">Astronomy--Michigan--Ann Arbor.</subject>
+        <subject source="local">Classrooms--Michigan--Ann Arbor.</subject>
+        <subject source="local">Lumbering--Michigan.</subject>
+        <subject source="local">Lumber industry--Michigan--Roscommon County.</subject>
+        <subject source="local">Athletics--United States.</subject>
+        <subject source="local">Boxing.</subject>
+        <subject source="local">Authors.</subject>
+        <subject source="local">Railroad accidents.</subject>
+        <subject source="local">Railroads--Michigan.</subject>
+        <subject source="local">Conservation of natural resources--Michigan.</subject>
+        <subject source="local">Agriculture--Michigan.</subject>
+        <subject source="local">Farming.</subject>
+        <subject source="local">Fences.</subject>
+        <subject source="local">Orchards.</subject>
+        <subject source="local">Abolitionists--Michigan--Battle Creek.</subject>
+        <subject source="local">Antislavery movements--United States.</subject>
+        <subject source="local">Women abolitionists--Michigan--Battle Creek.</subject>
+        <subject source="local">Baccalaureate addresses--University of
+                    Michigan.</subject>
+        <subject source="local">Prosthodontics.</subject>
+        <subject source="local">Universities and colleges--Departments--Evaluations.</subject>
+        <subject source="local">Conservation easements--Michigan, Northern.</subject>
+        <subject source="local">Conservation of natural resources--Michigan, Northern.</subject>
+        <subject source="local">Conservationists--Michigan, Northern.</subject>
+        <subject source="local">Fund raising--Michigan, Northern.</subject>
+        <subject source="local">Natural areas--Interpretive programs--Michigan, Northern.</subject>
+        <subject source="local">Nature centers--Michigan, Northern.</subject>
+        <subject source="local">Conservation &amp; restoration--Michigan--Harbor Springs.</subject>
+        <subject source="local">Forests--Michigan.</subject>
+        <subject source="local">Netherlanders in America.</subject>
+        <subject source="local">Afro-Americans--Michigan.</subject>
+        <subject source="local">Law enforcement--Michigan--Wayne County.</subject>
+        <subject source="local">Afro-Americans--Political life.</subject>
+        <subject source="local">Police--Michigan--Wayne County.</subject>
+        <subject source="local">Politics and government--1981-1990.</subject>
+        <subject source="local">Bird banding.</subject>
+        <subject source="local">Medicine--Michigan--Port Huron.</subject>
+        <subject source="local">Women--Michigan--Lansing.</subject>
+        <subject source="local">Boats.</subject>
+        <subject source="local">Children.</subject>
+        <subject source="local">Biophysics.</subject>
+        <subject source="local">Conservation of natural resources--Michigan.</subject>
+        <subject source="local">Lumbering--Michigan.</subject>
+        <subject source="local">Camping.</subject>
+        <subject source="local">Exhibitions.</subject>
+        <subject source="local">Laborers.</subject>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Papers</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Volume">1</container>
+            <unittitle>Notes on the law lectures of Victor H. Lane relating in part to extraordinary legal remedies</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
