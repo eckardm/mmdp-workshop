@@ -180,7 +180,8 @@ Use OpenRefine to Clean CSV
 Use Python and LXML to Update Original XML
 ------------------------------------------
 
-  * Create a new Python file called put_subjects.py
+  * Depending on time, either explain or do put_subjects.py
+
 
 Use the exported CSV, open question of if we just have it ready or write it out, but will have opportunity to talk about indexes, and that they start with zero, reading and writing in CSV and LXML, setting row to variable using same variables, still need a loop, talk about either new EAD or overwrite EAD, have accidentally deleted things (and why backups are important), look at a before and after shot of the CSV (on GitHub).
 
