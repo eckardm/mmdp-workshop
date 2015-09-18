@@ -146,10 +146,41 @@ Use OpenRefine to Clean CSV
 
 (20 minutes)
 
-Show how to import something, facet on subjects to show "kind of wrong" ones and then show easier way of using clustering, show the different algorithms, don't actually know what these things are...you'll have to figure out the one that works the best, could split on --, then show how you can see history, undo something, and even copy and replay your history, redo it, export csv (shows how you don't actaully mess with the original csv), mention other functionality like find and replace on a department name, and like, periods at end with regular expression
+  * Create Project
+  * Select our new CSV file
+  * Configure Parsing Options (check for headers, check that's its delimited by the right character, explain other options)
+  * Give it a name
+  * Create project!
+  * Create a working column
+  * Tour: Text Facet on filename
+  * Tour: 50 rows
+  * Tour: Next, Next, etc.
+  * Tour: Filter on particular filename, say that you could do this to more than one
+  * Tour: Filter on subject, show '--', show regex of opposite [^\-\-]
+  * Trim leading and trailing whitespace
+  * Tour: Show change all to uppercase
+  * Tour: Undo/Redo undo
+  * Facet on subject
+  * Fix a couple there
+  * Then...
+  * Cluster and edit (it's in Edit Cells, don't forget)
+  * Show the different keying functions
+  * Select a couple boxes
+  * Write in New Cell Value
+  * Merge and recluster
+  * Repeat a couple times...
+  * Filter on subjects that don't have punctuation at the end (period and parenthesis)
+  * Undo/Redo and Extract
+  * Could copy and paste this to replay on new data...
+  * GREL to transform a department name
+  * Split on '--'
+  * Undo that
+  * Once you're happy, export a CSV named subjects_clean.csv
 
 Use Python and LXML to Update Original XML
 ------------------------------------------
+
+  * Create a new Python file called put_subjects.py
 
 Use the exported CSV, open question of if we just have it ready or write it out, but will have opportunity to talk about indexes, and that they start with zero, reading and writing in CSV and LXML, setting row to variable using same variables, still need a loop, talk about either new EAD or overwrite EAD, have accidentally deleted things (and why backups are important), look at a before and after shot of the CSV (on GitHub).
 
