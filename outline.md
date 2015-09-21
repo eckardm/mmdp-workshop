@@ -182,9 +182,9 @@ Use Python and LXML to Update Original XML
 ------------------------------------------
 
   * Depending on time, either explain or do put_subjects.py
-  * Commit changes to GitHub and show differences between old and new versions of subjects.
-
-Use the exported CSV, open question of if we just have it ready or write it out, but will have opportunity to talk about indexes, and that they start with zero, reading and writing in CSV and LXML, setting row to variable using same variables, still need a loop, talk about either new EAD or overwrite EAD, have accidentally deleted things (and why backups are important), look at a before and after shot of the CSV (on GitHub).
+  * Open EADs folder and show that modified date has changed for some, not all
+  * Commit changes to GitHub and show differences between old and new versions of subjects
+  * Reiterate importance of testing on a backup of your data
 
 (10 minutes)
 
