@@ -71,7 +71,7 @@ Use Python and LXML to Create CSV
 
 <pre><code>>>>     tree = etree.parse(join(path, filename))</code></pre>
 
-  * Explain the join part (telling Python how to do what is easy for a human), also how you don't have to typoe out the whole thing
+  * Explain the join part (telling Python how to do what is easy for a human), also how you don't have to type out the whole thing
 
 <pre><code>>>>     subjects = tree.xpath('//controlaccess/subject')</code></pre>
 
@@ -88,7 +88,7 @@ Use Python and LXML to Create CSV
 
   * Explain about writing a program
   * Explain about why text editors are better than Notepad (or equivalent)
-  * Open a text editors
+  * Open a text editor
   * Open get_subjects.py (we'll have this ready to go)
   * Note that you end it with "py"
   * Run the script by first quiting python, then changing directories (if necessary), typing the filename ("python" in front depending on OS) and pressing Enter
@@ -127,7 +127,7 @@ and add...
   * Talk about the error that just occured. Explain that Python is not mad, just confused.
   * Correct the mistake to...
 
-<pre><code>        print subject_xpath</code></pre>
+<pre><code>        print subject_path</code></pre>
 
   * Make note about how variables can be called whatever you want, but they should be "semantic"--also explain semantic.
   * Now we have everything we need, except for the CSV. For the sake of time we're just going to write this out with high-level explanation...
@@ -197,13 +197,3 @@ Recap
      * Google
   4. You can do it!
   5. Evaluation (either us or MMDP)
-
-Notes
-=====
-
-Ask people to come early if they have issues with downloading/installing Python, LXML, Open Refine
-
-TO DO
-=====
-Instructions for Python, LXML, OpenRefine, something besides Notepad, recommendations.
-Create some files to send around.
