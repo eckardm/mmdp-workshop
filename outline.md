@@ -59,26 +59,36 @@ Use Python and LXML to Create CSV
 
   * Explain variables
 
-<pre><code>>>> path = 'EADs'</code></pre>
+<pre><code>>>> filename = 'EADs/abelhj.xml'</code></pre>
 
-  * Explain that directory is easy in this instance, but could be harder.
-  * Explain problem of going through directories/nodes in XML
-  * Explain solution (looping)
+  * Parse the file as XML
 
-<pre><code>>>> for filename in os.listdir(path):</code></pre>
-
-  * Tell Python that this file is an xml file
-
-<pre><code>>>>     tree = etree.parse(join(path, filename))</code></pre>
-
-  * Explain the join part (telling Python how to do what is easy for a human), also how you don't have to type out the whole thing
-
-<pre><code>>>>     subjects = tree.xpath('//controlaccess/subject')</code></pre>
+<pre><code>>>> tree = etree.parse(filename)</code></pre>
 
   * Explain XPath (high-level, we'll get more in depth later), telling Python where to look matching anything, now it knows where all these are (in a list)
   * Explain EAD structure (why we're using controlaccess)
-  * Explain that we need another loop to go through each subject it's found
+  * Explain looping through subjects
 
+<pre><code>>>> subjects = tree.xpath('//controlaccess/subject')</code></pre>
+<pre><code>>>> for subject in subjects:</code></pre>
+<pre><code>>>>     print subject.text.encode('utf-8')</code></pre>
+
+  * Set the entire directory to a variable
+
+<pre><code>>>> path = 'EADs'</code></pre>
+
+  * Explain that directory is easy in this instance, but could be harder.
+  * Show that looping can be used to loop through all files in the directory
+
+<pre><code>>>> for filename in os.listdir(path):</code></pre>
+<pre><code>>>>     print filename</code></pre>
+
+  * Print all subjects in the directory
+  * Explain the join part (telling Python how to do what is easy for a human), also how you don't have to type out the whole thing
+
+<pre><code>>>> for filename in os.listdir(path):</code></pre>
+<pre><code>>>>     tree = etree.parse(join(path, filename))</code></pre>
+<pre><code>>>>     subjects = tree.xpath('//controlaccess/subject')</code></pre>
 <pre><code>>>>     for subject in subjects:</code></pre>
 <pre><code>>>>         print subject.text.encode('utf-8')</code></pre>
 
