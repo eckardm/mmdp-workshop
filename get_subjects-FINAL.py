@@ -58,7 +58,7 @@ for filename in os.listdir(path):
             with open('subjects.csv', 'ab') as csv_file:
                 # create a writer (just something we have to do when using the csv module)
                 writer = csv.writer(csv_file)
-                # user the writer to write rows of the variables that we'll need
+                # use the writer to write rows of the variables that we'll need
                 # note, this function takes a list, and in python lists are enclosed in square brackets
                 writer.writerow([filename, subject_xpath, subject_text])
             
