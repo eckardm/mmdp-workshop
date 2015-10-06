@@ -53,10 +53,6 @@ Use Python and LXML to Create CSV
 
 <pre><code>>>> from lxml import etree</code></pre>
 
-  * Exlain csv
-
-<pre><code>>>> import csv</code></pre>
-
   * Explain variables
 
 <pre><code>>>> filename = 'EADs/abelhj.xml'</code></pre>
