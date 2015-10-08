@@ -6,9 +6,13 @@ Introduction
   1. Ourselves
   2. Structured data
   3. Why this is important
+    * Messy data is a fact of life, but boring work is not
+    * It's easier/more efficient (you're time is valuable)
+    * Do more than you could manually
+    * Kind of fun
   4. Disclaimer
   5. How to approach these kinds of problems
-    * Think like a computer
+    * Think like a computer, break it down into individual steps (not one big problem)
     * You will make mistakes
     * Backups! Did I mention backups?
 
@@ -17,11 +21,17 @@ Scope of Workshop
 
 (10 minutes)
 
-  1. Recap learning outcomes
+  1. Recap learning outcomes, within the context of our actual problem of having dirty subjects
   2. Introduce EAD (complicated, we're actually going to be accessing the easy part)
   3. Introduce Python
   4. Introduce libraries, like LXML and CSV (also difference between standard library and stuff you have to install separately)
   5. Introduce OpenRefine
+  
+  6. Following along:
+    * Outline is online
+    * You should have final version of the code if you get lost
+    * Only one of us will be talking at a time, other one will be available to offer limited assistance
+    * If we have time at the end we can answer questions, and we'll be around after this session and for the rest of the workshop if you have more complicated questions
 
 [Pass out chocolate, do some stretching]
 
